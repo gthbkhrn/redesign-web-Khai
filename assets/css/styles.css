@@ -1,5 +1,15 @@
 /* styles.css */
 
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    padding-top: 60px; /* Set padding-top for the whole body to accommodate the fixed navbar */
+}
+
+/* Navbar styles */
 #navbar-logo {
     height:50px;
 }
@@ -34,6 +44,7 @@
     margin-top: 20px;
 }
 
+/* Responsive styles */
 @media (min-width: 992px) {
     .navbar-nav {
         margin-top: 0;
@@ -67,8 +78,8 @@
     }
     
     .photo img {
-        width: 250px;
-        height: auto;
+        width: 128px;
+        height: 169px;
         border-radius: 10px 0 0 10px;
     }
     
