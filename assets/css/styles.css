@@ -1,0 +1,15 @@
+/* styles.css */
+
+#navbar-logo {
+    height: 50px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-top: 0;
+    }
+}
