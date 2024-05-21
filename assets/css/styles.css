@@ -1,14 +1,33 @@
 /* styles.css */
 
 #navbar-logo {
-    height: 50px;
+    height:50px;
 }
 
 #navbar-text {
-    margin-left: 50px;
-    color: green;
-    font-weight: bold;
-    font-size: 1.2em; /* Adjust the font size as needed */
+    margin-left:30px; /* Adjusted margin for better spacing */
+    color:green;
+    font-weight:bold;
+    font-size:1.2em; /* Adjust the font size as needed */
+}
+
+/* Change navbar item text color to green */
+.navbar-nav .nav-link {
+    color: green !important; /* Ensure green color */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: darkgreen !important; /* Optional: Darker green on hover/focus */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: green !important; /* Ensure green color for dropdown items */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+    color: darkgreen !important; /* Optional: Darker green on hover/focus */
 }
 
 .navbar-nav {
@@ -20,6 +39,7 @@
         margin-top: 0;
     }
 }
+
 
     body {
         padding-top: 30px;
