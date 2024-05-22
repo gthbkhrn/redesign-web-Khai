@@ -1,12 +1,9 @@
 /* styles.css */
-
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
-    padding-top: 60px; /* Set padding-top for the whole body to accommodate the fixed navbar */
 }
 
 /* Navbar styles */
@@ -51,31 +48,6 @@ body {
     }
 }
 
-
-    body {
-        padding-top: 30px;
-    }
-    .carousel-caption {
-        background: rgba(0, 0, 0, 0.5);
-        padding: 1rem;
-    }
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 20px;
-    }
-    
-    .container {
-        display: flex;
-        align-items: center;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        max-width: 800px;
-        margin: auto;
-    }
     
     .photo img {
         width: 128px;
@@ -84,8 +56,13 @@ body {
     }
     
     .description {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
         padding: 20px;
-        max-width: 500px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
     }
     
     .description h1 {
@@ -97,5 +74,109 @@ body {
         font-size: 16px;
         line-height: 1.5;
     }
+    .full-align {
+        text-align: justify;
+    }
     
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        background-color: #f0f0f0; /* warna latar belakang */
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .container h1 {
+        font-size: 36px; /* ukuran judul besar */
+    }
+
+    .subheading {
+        font-size: 25px; /* Ubah ukuran font sesuai keinginan Anda */
+    }
+    .full-align {
+        text-align: justify;
+    }
+    
+    .auto-container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    
+    .content-column {
+        flex: 1;
+        padding: 15px;
+    }
+    
+    #content_block_two .content-box {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .sec-title.left h5 {
+        color: #444;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    
+    .sec-title.left h2 {
+        color: #333;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .text {
+        margin-top: 20px;
+    }
+    
+    .text p {
+        margin: 10px 0;
+        color: #333;
+    }
+    
+    .text p em {
+        font-style: italic;
+        color: #666;
+    }
+    
+    .text img {
+        margin: 5px 10px;
+        float: left;
+        width: 128px;
+        height: 169px;
+    }
+    
+    .text .detail {
+        margin-top: 10px;
+    }
+    
+    .text .detail p {
+        text-align: justify;
+    }
+    
+    .text p:last-child {
+        text-align: right;
+    }
+    
+    .text p strong {
+        display: block;
+        margin-top: 10px;
+        color: #333;
+    }
 
