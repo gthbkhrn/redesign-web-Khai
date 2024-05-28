@@ -4,7 +4,7 @@ Muh. Khairan Isnan
 220907502071
 
 # Navbar
-s
+
 **Sebelum**
  ![Navbar (Sebelum)](https://github.com/gthbkhrn/redesign-web-Khai/assets/147986653/dbb202f6-53ee-4edb-96f5-4dbafc178bab)
 
